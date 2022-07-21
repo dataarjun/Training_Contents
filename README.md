@@ -338,7 +338,7 @@ git pull origin main
 
 - *On macOS and Linux:*
   ```bash
-    python3 -m venv env
+    python -m venv calculator
   ```
 - *Windows*
   ```bash
@@ -352,7 +352,7 @@ git pull origin main
     ```
   - *On macOS and Linux:*
     ```bash
-    source env/bin/activate
+    source calculator/bin/activate
     ```
 
 **3. Install dependencies using**
@@ -363,7 +363,12 @@ pip install -r requirements.txt
 **4. Run server using**
 
 ```bash
+python main.py
+
+OR
+
 flask run
+
 ```
 
 **5.** Go to ` http://127.0.0.1:5000/` and enjoy the application.
