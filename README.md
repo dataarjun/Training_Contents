@@ -163,6 +163,27 @@ Using Pivotal Tracker (https://www.pivotaltracker.com), add the user stories fro
 
 # GIT and DEVOPS Training
 
+## how to create ssh key for github
+
+>
+$ ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist
+generate ssh key github
+
+>
+$ ssh-keygen -t ed25519-sk -C "your_email@example.com"
+
+### add ssh keys to github
+>
+    1. ssh-keygen -o -t rsa -C "your_email@example.com"
+    2. Press return for each option
+    3. cat ~/.ssh/id_rsa.pub               # This is your public key file ends with .pub
+    4. Copy the entire cat's output on "Settings - SSH and GPG keys - New SSH key" on GitHub
+    5. 
+
+
+
+
 ## Ensure you have a Github account created.
 ### Github Account Creation Steps:
 1. Open https://github.com in a web browser, and then select Sign up.
