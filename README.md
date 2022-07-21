@@ -412,4 +412,5 @@ show some ❤️&nbsp; by giving the star to this repo
 
 >   CI and CD stand for continuous integration and continuous delivery/continuous deployment. In very simple terms, CI  is a modern software development practice in which incremental code changes are made frequently and reliably. Automated build-and-test steps triggered by CI ensure that code changes being merged into the repository are reliable. The code is then delivered quickly and seamlessly as a part of the CD process. In the software world, the CI/CD pipeline refers to the automation that enables incremental code changes from developers’ desktops to be delivered quickly and reliably to production
 
-![alt text]('/images/CI-CD_process.png')
+
+![](/images/CI-CD_process.png)
