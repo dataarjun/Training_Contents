@@ -1,5 +1,5 @@
 # The Software Development Life Cycle
-[[Training_Contents/images/03BAD6B2-3427-4242-817E-78983C06DEB4.jpeg|ALT TEXT]] 
+[[/Training_Contents/images/03BAD6B2-3427-4242-817E-78983C06DEB4.jpeg]] 
 ## Learning Objectives
 
 #### Conceptual
