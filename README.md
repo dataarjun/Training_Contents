@@ -246,7 +246,10 @@ When the key generation is complete, you should see the following confirmation:
 
     Your identification has been saved in /Users/username/.ssh/id_rsa.
     Your public key has been saved in /Users/username/.ssh/id_rsa.pub.
-The key fingerprint is:
+ 
+- The key fingerprint is:
+
+'''
     01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your@email.com
     The key's randomart image is:
     +--[ RSA 2048]----+
@@ -261,7 +264,7 @@ The key fingerprint is:
     |       .+=o      |
 +-----------------+
 The random art image is an alternate way to match keys but we won't be needing this.
-
+'''
 Add your public key to GitHub
 We now need to tell GitHub about your public key. Display the contents of your new public key file with cat:
 
