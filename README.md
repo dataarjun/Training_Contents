@@ -284,7 +284,7 @@ The output should look something like this:
 ![](/images/Adding_ssh_keys.PNG)
 
 
-### Some imprtant things to note
+### *** Some important things to note if you are getting any errors
 
 Make sure you are using ssh for your repository also
 
