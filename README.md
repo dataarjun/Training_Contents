@@ -528,3 +528,14 @@ show some ❤️&nbsp; by giving the star to this repo
 
 
 ![](/images/CI-CD_process.png)
+
+
+## Deploying the calculator app in cloud:
+
+### Clone an existing Git repo
+    1. Get the clone URL for an Azure Repos Git repo
+    2. Get the clone URL for a GitHub repo
+    3. Clone an Azure Repos Git repo
+    4. Clone a GitHub repo
+    5.  Clone any Git repo
+    6. Open a Visual Studio solution from a cloned repo
