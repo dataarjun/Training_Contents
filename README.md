@@ -284,6 +284,19 @@ The output should look something like this:
 ![](/images/Adding_ssh_keys.PNG)
 
 
+### Some imprtant things to note
+
+Make sure you are using ssh for your repository also
+
+    git remote -v
+    origin  git@github.com:eMahtab/reponame.git (fetch)
+    origin  git@github.com:eMahtab/reponame.git (push)
+    
+>
+Don't use https, if your remote is using https then it will keep asking for password, even If you have added the public key to Github and added private key to ssh-agent. Below will always ask for password
+
+
+
 ### Make changes to a file and push them to GitHub as commits
 
 > 1. cd /your_project path
