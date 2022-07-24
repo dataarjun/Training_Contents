@@ -628,23 +628,25 @@ A new window will open, and you should see you web app running. See image bellow
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
 message in the [main.py](main.py) script (line 25). Then commit and push your changes. 
 
-![pycharm6](images/change-welcome-message.png)
+![pycharm7](images/github-actions.png)
+
 
 Now you can you open your GitHub repo and go to the *Actions* section. You will see that a new pipeline has been triggered.
 The pipeline will test your changes and make sure that the code is in a deployable state. See image bellow.
 
-![pycharm7](images/github-actions.png)
+![pycharm6](images/github-build-screen.PNG)
 
-#### 6. Create a Webapp in Azure App Services
-##### 6.1. Create a Resource Group
+
+#### 5. Create a Webapp in Azure App Services
+##### 5.1. Create a Resource Group
 ``` bash
     az group create --name "RESOURCE_GROUP_NAME" --location "LOCATION" --tags udacity=udacity-project2
 ```
-##### 6.2. Set the default resource group and region for subsequent commands
+##### 5.2. Set the default resource group and region for subsequent commands
 ``` bash
     az configure --defaults group="RESOURCE_GROUP_NAME" location="LOCATION"
 ```
-##### 6.3. Run the following command to create and deploy the App Service app. Replace <your_app_name> 
+##### 5.3. Run the following command to create and deploy the App Service app. Replace <your_app_name> 
 with a unique name that becomes the URL, http://<your_app_name>.azurewebsites.net.
 ``` bash
     az webapp up --name <your_app_name> --logs --launch-browser
