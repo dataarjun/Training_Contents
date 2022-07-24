@@ -658,7 +658,8 @@ The pipeline will test your changes and make sure that the code is in a deployab
 with a unique name that becomes the URL, http://<your_app_name>.azurewebsites.net.
 ``` bash
     az webapp up --name <your_app_name> --logs --launch-browser
-    
+```
+
 #### For more details refer : 
 [Quickstart: Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)
 
