@@ -640,7 +640,7 @@ The pipeline will test your changes and make sure that the code is in a deployab
 #### 5. Create a Webapp in Azure App Services
 ##### 5.1. Create a Resource Group
 ``` bash
-    az group create --name "RESOURCE_GROUP_NAME" --location "LOCATION" --tags udacity=udacity-project2
+    az group create --name "RESOURCE_GROUP_NAME" --location "LOCATION" --tags di=developintelligence-project2
 ```
 ##### 5.2. Set the default resource group and region for subsequent commands
 ``` bash
