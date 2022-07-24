@@ -595,8 +595,8 @@ you would need to log into your Azure Account from the terminal first.
 
 #### 1. Clone the forked repo in Azure Cloud Shell
 ``` bash 
-    git clone git@github.com:marcoBrighterAI/flask-ml-azure-serverless.git
-    cd flask-ml-azure-serverless/
+    git clone git@github.com:dataarjun/calculator-app.git
+    cd calculator-app/
     ls
 ```
 ![pycharm1](images/git-clone-output.png)
@@ -606,13 +606,13 @@ Note:  You may need to follow this YouTube video guide on how to [setup SSH keys
 #### 2. Create virtual environment and source
 ``` bash 
     make setup
-    source ~/.flask-ml-azure-serverless/bin/activate
+    source ~/.calculator-app/bin/activate
 ```
 #### 3. Deploy your app in Azure Cloud 
 To start the app run the following commands:
 ``` bash 
     make all
-    python app.py
+    python main.py
 ```
 ![pycharm2](images/make-all-output.png)
 
@@ -627,7 +627,7 @@ A new window will open, and you should see you web app running. See image bellow
 #### 4. Verify Machine Learning predictions works
 First open a new Azure Cloud Shell then run the commands bellow.
 ``` bash 
-    cd flask-ml-azure-serverless/
+    cd calculator-app/
     ./make_predict.sh
 ```
 The model should predict the output depicted bellow.
@@ -636,7 +636,7 @@ The model should predict the output depicted bellow.
 
 #### 5. Verify Continuous Integration by changing app.py
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
-message in the [app.py](app.py) script (line 25). Then commit and push your changes. 
+message in the [main.py](main.py) script (line 25). Then commit and push your changes. 
 
 ![pycharm6](images/change-welcome-message.png)
 
