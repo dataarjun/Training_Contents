@@ -233,7 +233,8 @@ If you see id_rsa.pub, you already have a key pair and don't need to create a ne
 
 3. If you don't see id_rsa.pub, use the following command to generate a new key pair. Make sure to replace your@email.com with your own email address.
 
-    $ ssh-keygen -o -t rsa -C "your@email.com"
+    >
+        $ ssh-keygen -o -t rsa -C "your@email.com"
 (The -o option was added in 2014; if this command fails for you, just remove the -o and try again)
 
  When asked where to save the new key, hit enter to accept the default location.
