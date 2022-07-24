@@ -624,17 +624,7 @@ Now you can open the *Web preview* by clicking in the icon depicted with the red
 A new window will open, and you should see you web app running. See image bellow.
 ![pycharm4](images/web-app-running.png)
 
-#### 4. Verify Machine Learning predictions works
-First open a new Azure Cloud Shell then run the commands bellow.
-``` bash 
-    cd calculator-app/
-    ./make_predict.sh
-```
-The model should predict the output depicted bellow.
-
-![pycharm5](images/prediction-output.png)
-
-#### 5. Verify Continuous Integration by changing app.py
+#### 4. Verify Continuous Integration by changing main.py
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
 message in the [main.py](main.py) script (line 25). Then commit and push your changes. 
 
