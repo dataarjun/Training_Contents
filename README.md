@@ -652,6 +652,17 @@ with a unique name that becomes the URL, http://<your_app_name>.azurewebsites.ne
     az webapp up --name <your_app_name> --logs --launch-browser
 ```
 
+
+#### Once teh deployment is triggered the git actions would look as below:
+![pycharm8](images/deployment-progress.PNG)
+
+
+
+
+
+
+
+
 #### For more details refer : 
 [Quickstart: Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)
 
