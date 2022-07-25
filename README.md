@@ -301,13 +301,12 @@ Don't use https, if your remote is using https then it will keep asking for pass
 
 
 ### Make changes to a file and push them to GitHub as commits
+ 1. cd /your_project path ~~~~
 
-~~~~ 1. cd /your_project path ~~~~
-~~~~  
      1. git add *
      2. git commit -m "Enter commit message here"
      3. git push -u origin "YYourBranchName"
-~~~~
+
 ### Open and merge a pull request
 
 
@@ -324,14 +323,14 @@ In your Github fork, you need to keep your master branch clean, by clean I mean 
 1.  When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.
     Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
 
-~~~~ $ git pull
-~~~~
+$ git pull
+
 2. Create the branch on your local machine and switch in this branch :
 
-~~~~ $ git checkout -b [name_of_your_new_branch] ~~~~
+ $ git checkout -b [name_of_your_new_branch] 
 3. Push the branch on github :
 
-~~~~ $ git push origin [name_of_your_new_branch] ~~~~
+ $ git push origin [name_of_your_new_branch] 
 4. When you want to commit something in your branch, be sure to be in your branch. Add -u parameter to set-upstream.
 
     You can see all the branches created by using :
