@@ -651,10 +651,12 @@ with a unique name that becomes the URL, http://<your_app_name>.azurewebsites.ne
 ``` bash
     az webapp up --name <your_app_name> --logs --launch-browser
 ```
+#### Once it's launched you should be able to see the app Home Page in the browser.
+![pycharm8](images/calculator-app-in-browser.PNG)
 
 
-#### Once teh deployment is triggered the git actions would look as below:
-![pycharm8](images/deployment-progress.PNG)
+#### Once the deployment is triggered the git actions would look as below:
+![pycharm9](images/deployment-progress.PNG)
 
 
 
