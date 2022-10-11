@@ -143,9 +143,13 @@
 
 ## Class Exercise 
 
-**Pair Exercise - 15 min**
+**Pair Exercise - 20 min**
 
-Using index cards, write 5-10 user stories for a online store. Assign a point value from 1-3 to them for use later.
+## Case Study:
+
+https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda
+
+Using the cases study given, create simple process flow diagram. You can use slide or word or anhytool for creating the diagram.
 
 #### Sprints
 - Sprints are development cycles for Scrum
@@ -157,9 +161,9 @@ Using index cards, write 5-10 user stories for a online store. Assign a point va
 
 ## Class Exercise 
 
-**20 min**
+**30 min**
 
-Using Pivotal Tracker (https://www.pivotaltracker.com), add the user stories from the previous exercise into the backlog, and prioritize them. 
+Using JIRA Atlassian  https://www.atlassian.com, add the user stories as a story board based on teh case study given in the earlier excercise. 
 
 
 # GIT and DEVOPS Training
