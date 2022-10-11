@@ -126,25 +126,26 @@
 
 #### User Stories
 
-- A user story is a very high-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it
+- A user story is a very high-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it.
+
 - Keep user stories slim and high level
 - Anyone is able to write it
 - Examples: 
- * Students can purchase monthly parking passes online.
- * Parking passes can be paid via credit cards.
- * Parking passes can be paid via PayPal.
- * Professors can input student marks.
- * Students can obtain their current seminar schedule.
- * Students can order official transcripts.
- * Students can only enroll in seminars for which they have prerequisites.
-- Assign points based on how large the tasks are relative to each other, don't focus on the details
+ * Customers can purchase pizza  online using gift cards.
+ * Pizza orders can be placed via credit cards.
+ * Pizza orders can be placed via PayPal.
+ * Storeoweners can input customer details.
+ * Customers can obtain their payment information from their existing profile.
+ * Customers can order pizzas using points earned.
+ * Customers can only create profiles if they haven't have an account with the online store.
+- Assign gift points based on how they order , order pattern, frequency of orders, festive sesaons etc.
 - Epic stories should be broken down into smaller ones 
 
 ## Class Exercise 
 
 **Pair Exercise - 15 min**
 
-Using index cards, write 5-10 user stories for a Craigslist website clone. Assign a point value from 1-3 to them for use later.
+Using index cards, write 5-10 user stories for a online store. Assign a point value from 1-3 to them for use later.
 
 #### Sprints
 - Sprints are development cycles for Scrum
