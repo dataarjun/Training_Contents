@@ -262,7 +262,7 @@ Note:  You may need to follow this YouTube video guide on how to [setup SSH keys
 To start the app run the following commands:
 ``` bash 
     make all
-    python main.py
+    python app.py
 ```
 
 
