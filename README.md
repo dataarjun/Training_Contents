@@ -249,7 +249,7 @@ you would need to log into your Azure Account from the terminal first.
     cd calculator-app/
     ls
 ```
-![pycharm1](images/git-clone-output.png)
+
 
 Note:  You may need to follow this YouTube video guide on how to [setup SSH keys and configure Azure Cloud Shell with Github](https://www.youtube.com/watch?v=3vtBAfPjQus).
 
@@ -264,27 +264,25 @@ To start the app run the following commands:
     make all
     python main.py
 ```
-![pycharm2](images/make-all-output.png)
+
 
 After running both commands you should see an output like the screenshot bellow.
 
-![pycharm3](images/python-app-output.png)
+
 
 Now you can open the *Web preview* by clicking in the icon depicted with the red dot in the image above and set the port to `5000`.
 A new window will open, and you should see you web app running. See image bellow.
-![pycharm4](images/web-app-running.png)
 
 #### 4. Verify Continuous Integration by changing main.py
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
 message in the [main.py](main.py) script (line 25). Then commit and push your changes. 
 
-![pycharm7](images/github-actions.png)
+
 
 
 Now you can you open your GitHub repo and go to the *Actions* section. You will see that a new pipeline has been triggered.
 The pipeline will test your changes and make sure that the code is in a deployable state. See image bellow.
 
-![pycharm6](images/github-build-screen.PNG)
 
 
 #### 5. Create a Webapp in Azure App Services
