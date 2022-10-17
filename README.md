@@ -149,7 +149,7 @@
 
 https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda
 
-Using the cases study given, create simple process flow diagram. You can use slide or word or anhytool for creating the diagram.
+Using the cases study given, create simple process flow diagram. You can use slide or word or any tool ( ex. lucid chart(https://lucid.app/)) for creating the diagram.
 
 #### Sprints
 - Sprints are development cycles for Scrum
