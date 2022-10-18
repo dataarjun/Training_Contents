@@ -148,7 +148,7 @@
 
     ### Documents Prepared by Business Analyst
 
-<img src="images/BAdocuments.jpg" alt="OP" title="BAdocuments">
+<img src="images/BAdocuments.png" alt="OP" title="BAdocuments">
 
 ## Class Exercise 
 
