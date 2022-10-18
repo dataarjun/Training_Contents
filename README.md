@@ -234,45 +234,61 @@ you would need to log into your Azure Account from the terminal first.
 - [1. Clone the forked repo in Azure Cloud Shell](#1-clone-the-forked-repo-in-azure-cloud-shell)
 - [2. Create virtual environment and source](#2-create-virtual-environment-and-source)
 - [3. Deploy your app in Azure Cloud](#3-deploy-your-app-in-azure-cloud)
-- [4. Verify Machine Learning predictions works](#4-verify-machine-learning-predictions-works)
+- [4. Verify OninePizza API works](#4-verify-machine-learning-predictions-works)
 - [5. Verify Continuous Integration by changing app.py](#5-verify-continuous-integration-by-changing-apppy)
 - [6. Create a Webapp in Azure App Services](#6-create-a-webapp-in-azure-app-services)
 - [7. Create an Azure DevOps Project and connect to Azure](#7-create-an-azure-devops-project-and-connect-to-azure)
-- [8. Create a Python Pipeline with GitHub Integration](#8-create-a-python-pipeline-with-github-integration)
+- [8. Create a Pipeline with GitHub Integration](#8-create-a-pipeline-with-github-integration)
 - [9. Verify Continuous Delivery by changing app.py](#9-verify-continuous-delivery-by-changing-apppy)
-- [10. Verify Machine Learning Prediction in Azure Apps](#10-verify-machine-learning-prediction-in-azure-apps)
+- [10. Verify OnlinePizza Delivery APP in Azure Apps](#10-verify-OnlinePizza-Delivery-App-in-azure-apps)
 - [11. Load test the application using Locust](#11-load-test-the-application-using-locust)
 
 
-#### 1. Clone the forked repo in Azure Cloud Shell
+#### 1. Clone the forked repo in Azure Cloud Shell ( login to https://portal.azure.com/ and click azure shell)
+
 ``` bash 
-    git clone git@github.com:dataarjun/calculator-app.git
-    cd calculator-app/
+    git clone https://github.com/dataarjun/OnlinePizzaa.git
+    cd OnlinePizzaa/
     ls
 ```
 
 
-Note:  You may need to follow this YouTube video guide on how to [setup SSH keys and configure Azure Cloud Shell with Github](https://www.youtube.com/watch?v=3vtBAfPjQus).
+** Note:  You may need to follow this YouTube video guide on how to [setup SSH keys and configure Azure Cloud Shell with Github](https://www.youtube.com/watch?v=3vtBAfPjQus).
 
 #### 2. Create virtual environment and source
 ``` bash 
-    make setup
-    source ~/.calculator-app/bin/activate
+    python -m venv pizzaapp
+    source ~/.pizzaapp/bin/activate
 ```
-#### 3. Deploy your app in Azure Cloud 
+#### 3. Deploy your app in Azure Cloud . 
 To start the app run the following commands:
 ``` bash 
-    make all
-    python app.py
+    
+    az webapp up --location westeurope --name OnlinePizzaa --html
 ```
 
 
 After running both commands you should see an output like the screenshot bellow.
 
+```
+{
+  "app_url": "https://&lt;app_name&gt;.azurewebsites.net",
+  "location": "westeurope",
+  "name": "&lt;app_name&gt;",
+  "os": "Windows",
+  "resourcegroup": "appsvc_rg_Windows_westeurope",
+  "serverfarm": "appsvc_asp_Windows_westeurope",
+  "sku": "FREE",
+  "src_path": "/home/&lt;username&gt;/quickstart/html-docs-hello-world ",
+  &lt; JSON data removed for brevity. &gt;
+}
+```
 
+## Browse to the app
+In a browser, go to the app URL: http://<app_name>.azurewebsites.net.
 
-Now you can open the *Web preview* by clicking in the icon depicted with the red dot in the image above and set the port to `5000`.
-A new window will open, and you should see you web app running. See image bellow.
+The page is running as an Azure App Service web app.
+
 
 #### 4. Verify Continuous Integration by changing main.py
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
@@ -285,35 +301,17 @@ Now you can you open your GitHub repo and go to the *Actions* section. You will 
 The pipeline will test your changes and make sure that the code is in a deployable state. See image bellow.
 
 
-
-#### 5. Create a Webapp in Azure App Services
-##### 5.1. Create a Resource Group
-``` bash
-    az group create --name "RESOURCE_GROUP_NAME" --location "LOCATION" --tags di=developintelligence-project2
-```
-##### 5.2. Set the default resource group and region for subsequent commands
-``` bash
-    az configure --defaults group="RESOURCE_GROUP_NAME" location="LOCATION"
-```
-##### 5.3. Run the following command to create and deploy the App Service app. Replace <your_app_name> 
-with a unique name that becomes the URL, http://<your_app_name>.azurewebsites.net.
-``` bash
-    az webapp up --name <your_app_name> --logs --launch-browser
-```
 #### Once it's launched you should be able to see the app Home Page in the browser.
-![pycharm8](images/calculator-app-in-browser.PNG)
-
-
-#### Once the deployment is triggered the git actions would look as below:
-![pycharm9](images/deployment-progress.PNG)
+<img src="images/OnlinePizza-Homepage.png" alt="OP" title="OnlinePizzaa">
 
 
 
+#### Once the deployment is triggered the gitHub actions would look as below:
+<img src="images/github-actions.png" alt="OP" title="OnlinePizzaa">
 
 
 
 
 
-#### For more details refer : 
-[Quickstart: Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)
+## Thank you
 
