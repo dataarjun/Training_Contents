@@ -217,7 +217,8 @@ necessary to implement CI/CD. The ML application is simple, however, it can be e
 To follow DevOps best practices, in the links bellow you will find a Kanban Trello board, and a spreadsheet
 showing the project plan, project deliverables and project goals.
 
-* [Trello board](https://trello.com/b/boMOaYDS/ci-cd-pipeline-for-machine-learning-project-in-azure)
+* [JIRA board]([https://trello.com/b/boMOaYDS/ci-cd-pipeline-for-machine-learning-project-in-azure)](https://jira.external-share.com/issue/426be47e-c3a5-4795-a817-449e66dc0081)
+
 * [Project plan spreadsheet](https://docs.google.com/spreadsheets/d/1858v3Eu1RnLsD6ZOudSua-nVhAD_BDFtSiWJT2F3AwQ/edit?usp=sharing)
 
 ### Getting Started
