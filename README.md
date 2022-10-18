@@ -148,7 +148,7 @@
 
     ### Documents Prepared by Business Analyst
 
-![](images/BAdocuments.jpg)
+![image](images/BAdocuments.jpg)
 
 ## Class Exercise 
 
@@ -156,7 +156,7 @@
 
 ## Case Study:
 
-    ![Agile Case Study] https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda
+![Agile Case Study](https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda)
 
 Using the cases study given, create simple process flow diagram. You can use slide or word or any tool ( ex. lucid chart(https://lucid.app/)) for creating the diagram.
 
