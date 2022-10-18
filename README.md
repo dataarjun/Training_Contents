@@ -206,7 +206,7 @@ using **Azure Pipelines** for a Machine Learning Application. The app is impleme
 flask module. **Azure App Services** is used to host the application. In this repo you will find all the code and configurations
 necessary to implement CI/CD. The ML application is simple, however, it can be easily extended.
 
-![pycharm1](images/project-architecture.png)
+![pycharm1](images/project-architecture.jpg)
 
 ### Dependencies
 - [Azure Account](https://portal.azure.com) 
