@@ -307,7 +307,7 @@ The pipeline will test your changes and make sure that the code is in a deployab
 
 
 #### Once the deployment is triggered the gitHub actions would look as below:
-<img src="images/github-actions.png" alt="OP" title="OnlinePizzaa">
+<img src="images/Github Actions-updates.png" alt="OP" title="OnlinePizzaa">
 
 
 
