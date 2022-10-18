@@ -291,9 +291,9 @@ In a browser, go to the app URL: http://<app_name>.azurewebsites.net.
 The page is running as an Azure App Service web app.
 
 
-#### 4. Verify Continuous Integration by changing main.py
+#### 4. Verify Continuous Integration by changing index.html
 To verify that the Continuous Integration is working you can open the editor in Azure Cloud Shell and change the welcome
-message in the [main.py](main.py) script (line 25). Then commit and push your changes. 
+message in the ![index.htm](https://github.com/dataarjun/OnlinePizzaa/blob/main/index.html) script (line 25). Then commit and push your changes. 
 
 
 
