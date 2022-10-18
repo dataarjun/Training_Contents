@@ -101,28 +101,29 @@
 - Scrum is a subset of Agile, it's an "iterative" and "incremental" software development methodology for managing product development
 - Scrum recommends breaking things into small pieces of work, and timeboxing our development cycles
 - Scrum sets roles like: 
- * Product Owner (defines product vision, priorities, accepts & rejects work performed)
- * Team (implements product)
- * Scrum Master (improves process, sets sprint duration and removes impediments)
+  * Product Owner (defines product vision, priorities, accepts & rejects work performed)
+  * Team (implements product)
+  * Scrum Master (improves process, sets sprint duration and removes impediments)
 - Scrum process: 
- 1. Create a product backlog (wishlist)
- 2. Sprint planning, what will be in the current sprint? 
- 3. Sprint/development (typically 2-4 weeks)
-  - Meet daily for scrum meetings, organized by the scrum master
- 4. Sprint review - Review the work done with the product owner 
- 5. Sprint retrospective - what worked, what didn't about the process
- 6. Ship and repeat 
+  1. Create a product backlog (wishlist)
+  2. Sprint planning, what will be in the current sprint? 
+  3. Sprint/development (typically 2-4 weeks)
+     - Meet daily for scrum meetings, organized by the scrum master
+  4. Sprint review - Review the work done with the product owner 
+  5. Sprint retrospective - what worked, what didn't about the process
+  6. Ship and repeat 
 - What is a scrum meeting/standup?
- + When does it happen?
-   - Every morning for 15 min
- + What is the structure?
+  + When does it happen?
+    - Every morning for 15 min
+  + What is the structure?
     1. What did I accomplish yesterday? 
     2. What will I work on today? 
     3. What impedes me or is blocking my progress? 
- + What is the point?
-- Longer term plans
- + Release plan - Typically requires multiple sprints
- + Product roadmap
+  + What is the point?
+    - Longer term plans
+  + Release plan
+    - Typically requires multiple sprints
+  + Product roadmap
 
 #### User Stories
 
@@ -131,13 +132,13 @@
 - Keep user stories slim and high level
 - Anyone is able to write it
 - Examples: 
- * Customers can purchase pizza  online using gift cards.
- * Pizza orders can be placed via credit cards.
- * Pizza orders can be placed via PayPal.
- * Storeoweners can input customer details.
- * Customers can obtain their payment information from their existing profile.
- * Customers can order pizzas using points earned.
- * Customers can only create profiles if they haven't have an account with the online store.
+  * Customers can purchase pizza  online using gift cards.
+  * Pizza orders can be placed via credit cards.
+  * Pizza orders can be placed via PayPal.
+  * Storeoweners can input customer details.
+  * Customers can obtain their payment information from their existing profile.
+  * Customers can order pizzas using points earned.
+  * Customers can only create profiles if they haven't have an account with the online store.
 - Assign gift points based on how they order , order pattern, frequency of orders, festive sesaons etc.
 - Epic stories should be broken down into smaller ones 
 
@@ -163,7 +164,7 @@ Using the cases study given, create simple process flow diagram. You can use sli
 
 **30 min**
 
-Using JIRA Atlassian  https://www.atlassian.com, add the user stories as a story board based on the case study given in the earlier exercise. 
+Using JIRA [Atlassian](https://www.atlassian.com), add the user stories as a story board based on the case-study given in the earlier exercise.
 
 Here are some example  [JIRA Boards](https://confluence.external-share.com/content/6b39350c-19dc-48bf-a510-1d4e39489e98).
 
