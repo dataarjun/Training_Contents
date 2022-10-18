@@ -142,6 +142,14 @@
 - Assign gift points based on how they order , order pattern, frequency of orders, festive sesaons etc.
 - Epic stories should be broken down into smaller ones 
 
+
+## Documents Prapared by Business Analysts:
+![SDLC Documentaion]([https://docs.google.com/document/d/1benxfD5JKd-CkTEIQXl7Brwz3a1g0USw/edit?usp=sharing&ouid=103332714627033894482&rtpof=true&sd=true])
+
+### Documents Prepared by Business Analyst
+<img src="images/Documents-Prepated-by-the-Business-Analyst.jpeg" alt="OP" title="BA Documents">
+
+
 ## Class Exercise 
 
 **Pair Exercise - 20 min**
@@ -309,7 +317,7 @@ The pipeline will test your changes and make sure that the code is in a deployab
 
 
 #### Once the deployment is triggered the gitHub actions would look as below:
-<img src="images/Github Actions-updates.png" alt="OP" title="OnlinePizzaa">
+<img src="images/Github Actions-updates.png" alt="OP" title="GIT Workflows">
 
 
 
