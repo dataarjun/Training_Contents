@@ -148,8 +148,7 @@
 
     ### Documents Prepared by Business Analyst
 
-    ![](images/BAdocuments.jpg)
-
+![](images/BAdocuments.jpg)
 
 ## Class Exercise 
 
