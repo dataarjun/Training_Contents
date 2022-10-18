@@ -251,6 +251,7 @@ you would need to log into your Azure Account from the terminal first.
     cd OnlinePizzaa/
     ls
 ```
+<img src="images/CloudShell.png" alt="OP" title="OnlinePizzaa">
 
 
 ** Note:  You may need to follow this YouTube video guide on how to [setup SSH keys and configure Azure Cloud Shell with Github](https://www.youtube.com/watch?v=3vtBAfPjQus).
