@@ -165,7 +165,7 @@ Using the cases study given, create simple process flow diagram. You can use sli
 
 Using JIRA Atlassian  https://www.atlassian.com, add the user stories as a story board based on the case study given in the earlier exercise. 
 
-
+Here are some examples JIRA Boards https://confluence.external-share.com/content/6b39350c-19dc-48bf-a510-1d4e39489e98 .
 
 
 
@@ -218,7 +218,7 @@ To follow DevOps best practices, in the links bellow you will find a Kanban Trel
 showing the project plan, project deliverables and project goals.
 
 * [Trello board](https://trello.com/b/boMOaYDS/ci-cd-pipeline-for-machine-learning-project-in-azure)
-* [Project plan spreadsheet](https://docs.google.com/spreadsheets/d/1YuwbRiXFODAtWOqejUCbbSH1ag5XcuXN_TyVgkzjHNE/edit?usp=sharing)
+* [Project plan spreadsheet](https://docs.google.com/spreadsheets/d/1858v3Eu1RnLsD6ZOudSua-nVhAD_BDFtSiWJT2F3AwQ/edit?usp=sharing)
 
 ### Getting Started
 
