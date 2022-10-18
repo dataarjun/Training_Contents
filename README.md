@@ -165,7 +165,7 @@ Using the cases study given, create simple process flow diagram. You can use sli
 
 Using JIRA Atlassian  https://www.atlassian.com, add the user stories as a story board based on the case study given in the earlier exercise. 
 
-Here are some examples JIRA Boards https://confluence.external-share.com/content/6b39350c-19dc-48bf-a510-1d4e39489e98 .
+Here are some example  [JIRA Boards](https://confluence.external-share.com/content/6b39350c-19dc-48bf-a510-1d4e39489e98).
 
 
 
