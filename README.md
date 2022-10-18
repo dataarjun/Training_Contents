@@ -156,7 +156,7 @@
 
 ## Case Study:
 
-https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda
+    ![Agile Case Study] https://www.notion.so/Agile-Case-Study-946fcc5a8d794eefb40f0e37e82dcbda
 
 Using the cases study given, create simple process flow diagram. You can use slide or word or any tool ( ex. lucid chart(https://lucid.app/)) for creating the diagram.
 
@@ -187,8 +187,8 @@ Here are some example  [JIRA Boards](https://confluence.external-share.com/conte
 >   CI and CD stand for continuous integration and continuous delivery/continuous deployment. In very simple terms, CI  is a modern software development practice in which incremental code changes are made frequently and reliably. Automated build-and-test steps triggered by CI ensure that code changes being merged into the repository are reliable. The code is then delivered quickly and seamlessly as a part of the CD process. In the software world, the CI/CD pipeline refers to the automation that enables incremental code changes from developers’ desktops to be delivered quickly and reliably to production
 
 
-![](/images/CI-CD_process.png)
 
+<img src="images/BAdocuments.jpg" alt="OP" title="BAdocuments">
 
 ## Deploying the calculator app in cloud:
 
