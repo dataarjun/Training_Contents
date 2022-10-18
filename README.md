@@ -188,7 +188,7 @@ Here are some example  [JIRA Boards](https://confluence.external-share.com/conte
 
 
 
-<img src="images/BAdocuments.jpg" alt="OP" title="BAdocuments">
+<img src="images/CI-CD_process.png" alt="OP" title="BAdocuments">
 
 ## Deploying the calculator app in cloud:
 
