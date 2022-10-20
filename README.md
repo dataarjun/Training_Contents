@@ -178,6 +178,38 @@ Here are some example  [JIRA Boards](https://confluence.external-share.com/conte
 
 
 
+### Steps for cloning git repository in VS code terminals :
+
+1. Go to lab environment
+
+2. Look for the Visual Studio Code icon.
+
+3. Double click on it and launch it
+
+4. In the vscode window , you will see 4 options. Selection Open Folder options.
+
+5. It will open it on a new window. Create a folder here by clicking on the folder icon at top right corner.
+
+6. Once you select open at the bottom of the folder creation window you will land back to vscode window.
+
+7. On vscode folder pane section, right click on the blank are.
+
+8. It will show you 4 options
+
+9. Select the 4th option, Open in integrated terminal.
+
+10. Once you open it in terminal , you will see the terminal window on the right side bottom of the vscode.
+
+11. On the terminal type the command : git clone https://github.com/dataarjun/OnlinePizzaa.git
+
+12. Now you will see all the code folders on left window which was empty earlier.
+
+13. You will see there are 10-12 files and folders. Click on index.html and go through it.
+
+14. Right click on the same and click on open with live server.
+
+16. It will show the Onlinepizza webapp on the browser.
+
 
 
 
