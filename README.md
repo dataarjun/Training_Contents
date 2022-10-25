@@ -222,6 +222,10 @@ Create a simple high level data  flow diagram that depicts the frontend and back
 
 Example DFD in !https://lucid.app/lucidchart/2e930eb5-c1eb-4a1d-99f8-68b1110db6f7/edit?page=0_0&invitationId=inv_bd809b29-0f4b-46bc-8a0b-9c6651818197# Chart
 
+### OR
+
+!https://online.visual-paradigm.com/
+
 
 
 
